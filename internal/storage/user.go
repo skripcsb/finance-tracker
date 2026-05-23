@@ -7,7 +7,7 @@ import (
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/vadim/finance-tracker/internal/model"
+	"github.com/nastya/finance-tracker/internal/model"
 )
 
 var ErrUserNotFound = errors.New("user not found")

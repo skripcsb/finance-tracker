@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/vadim/finance-tracker/internal/auth"
-	"github.com/vadim/finance-tracker/internal/config"
-	"github.com/vadim/finance-tracker/internal/handler"
-	"github.com/vadim/finance-tracker/internal/service"
-	"github.com/vadim/finance-tracker/internal/storage"
+	"github.com/nastya/finance-tracker/internal/auth"
+	"github.com/nastya/finance-tracker/internal/config"
+	"github.com/nastya/finance-tracker/internal/handler"
+	"github.com/nastya/finance-tracker/internal/service"
+	"github.com/nastya/finance-tracker/internal/storage"
 )
 
 func main() {

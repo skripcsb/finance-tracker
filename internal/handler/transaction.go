@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/vadim/finance-tracker/internal/auth"
-	"github.com/vadim/finance-tracker/internal/model"
-	"github.com/vadim/finance-tracker/internal/service"
-	"github.com/vadim/finance-tracker/internal/storage"
+	"github.com/nastya/finance-tracker/internal/auth"
+	"github.com/nastya/finance-tracker/internal/model"
+	"github.com/nastya/finance-tracker/internal/service"
+	"github.com/nastya/finance-tracker/internal/storage"
 )
 
 type TransactionHandler struct {

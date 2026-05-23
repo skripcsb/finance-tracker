@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/vadim/finance-tracker/internal/auth"
-	"github.com/vadim/finance-tracker/internal/model"
-	"github.com/vadim/finance-tracker/internal/storage"
+	"github.com/nastya/finance-tracker/internal/auth"
+	"github.com/nastya/finance-tracker/internal/model"
+	"github.com/nastya/finance-tracker/internal/storage"
 	"golang.org/x/crypto/bcrypt"
 )
 

@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/vadim/finance-tracker/internal/auth"
+	"github.com/nastya/finance-tracker/internal/auth"
 )
 
 func SetupRoutes(authH *AuthHandler, txnH *TransactionHandler, tm *auth.TokenManager, log *slog.Logger) http.Handler {

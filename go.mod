@@ -1,4 +1,4 @@
-module github.com/vadim/finance-tracker
+module github.com/nastya/finance-tracker
 
 go 1.25.6
 

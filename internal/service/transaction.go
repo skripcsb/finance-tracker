@@ -7,8 +7,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/vadim/finance-tracker/internal/model"
-	"github.com/vadim/finance-tracker/internal/storage"
+	"github.com/nastya/finance-tracker/internal/model"
+	"github.com/nastya/finance-tracker/internal/storage"
 )
 
 type TransactionService struct {
